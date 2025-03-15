@@ -3,9 +3,9 @@ import os
 import sys
 
 import markdown2
-from PySide6 import QtCore, QtGui, QtWidgets
-from PySide6.QtCore import Qt, Slot
-from PySide6.QtWidgets import QScrollArea
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import Qt, pyqtSlot as Slot
+from PyQt5.QtWidgets import QScrollArea
 
 from ui.UIUtils import UIUtils, colorMode
 

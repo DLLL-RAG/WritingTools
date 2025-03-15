@@ -2,9 +2,9 @@ import os
 import sys
 
 from aiprovider import AIProvider
-from PySide6 import QtCore, QtWidgets
-from PySide6.QtGui import QImage
-from PySide6.QtWidgets import QHBoxLayout, QRadioButton, QScrollArea
+from PyQt5 import QtCore, QtWidgets
+from PyQt5.QtGui import QImage
+from PyQt5.QtWidgets import QHBoxLayout, QRadioButton, QScrollArea
 
 from ui.AutostartManager import AutostartManager
 from ui.UIUtils import UIUtils, colorMode
@@ -16,7 +16,7 @@ class SettingsWindow(QtWidgets.QWidget):
     The settings window for the application.
     Now with scrolling support for better usability on smaller screens.
     """
-    close_signal = QtCore.Signal()
+    close_signal = QtCore.pyqtSignal()
 
     def __init__(self, app, providers_only=False):
         super().__init__()

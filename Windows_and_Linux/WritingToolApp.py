@@ -10,9 +10,9 @@ import time
 import darkdetect
 import pyperclip
 from pynput import keyboard as pykeyboard
-from PySide6 import QtCore, QtGui, QtWidgets
-from PySide6.QtCore import QLocale, Signal, Slot
-from PySide6.QtGui import QCursor, QGuiApplication
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import QLocale, pyqtSignal as Signal, pyqtSlot as Slot
+from PyQt5.QtGui import QCursor, QGuiApplication
 from PySide6.QtWidgets import QApplication, QMessageBox
 
 import ui.AboutWindow

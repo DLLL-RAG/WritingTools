@@ -1,7 +1,7 @@
 import logging
 
-from PySide6 import QtCore, QtWidgets
-from PySide6.QtWidgets import QHBoxLayout, QRadioButton
+from PyQt5 import QtCore, QtWidgets
+from PyQt5.QtWidgets import QHBoxLayout, QRadioButton
 
 from ui.UIUtils import UIUtils, colorMode
 
@@ -9,7 +9,7 @@ _ = lambda x: x
 
 class OnboardingWindow(QtWidgets.QWidget):
     # Closing signal
-    close_signal = QtCore.Signal()
+    close_signal = QtCore.pyqtSignal()
 
     def __init__(self, app):
         super().__init__()

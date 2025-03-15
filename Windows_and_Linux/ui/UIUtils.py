@@ -1,8 +1,8 @@
 import os
 import sys
 
-from PySide6 import QtGui, QtCore, QtWidgets
-from PySide6.QtGui import QImage, QPixmap
+from PyQt5 import QtGui, QtCore, QtWidgets
+from PyQt5.QtGui import QImage, QPixmap
 
 import darkdetect
 colorMode = 'dark' if darkdetect.isDark() else 'light'

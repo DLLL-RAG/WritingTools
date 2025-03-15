@@ -41,8 +41,8 @@ import google.generativeai as genai
 from google.generativeai.types import HarmBlockThreshold, HarmCategory
 from ollama import Client as OllamaClient
 from openai import OpenAI
-from PySide6 import QtWidgets
-from PySide6.QtWidgets import QVBoxLayout
+from PyQt5 import QtWidgets
+from PyQt5.QtWidgets import QVBoxLayout
 from ui.UIUtils import colorMode
 
 
