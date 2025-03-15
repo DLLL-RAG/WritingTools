@@ -85,6 +85,15 @@ Aside from being the only Windows/Linux program like Apple's Writing Tools, and 
 
 **PS: Go to Writing Tools' Settings (from its tray icon at the bottom right of the taskbar) to enable starting Writing Tools on boot.**
 
+### **🪟 Windows (run it from the source code)**:
+
+1.  If you haven't installed Python yet, please download and install the latest version from the official Python website ( https://python.org ). During installation, make sure to check the box that says "Add Python to PATH".
+2.  [Download the source code](https://github.com/theJayTea/WritingTools/).
+3.  Extract it to your desired location (recommended: `Documents` or `App Data/Local`).
+4.  Navigate to the `Windows_and_Linux` folder.
+5.  If this is your first time running, you need to install the dependencies. Run the command: `pip install -r requirements.txt`.
+6.  To start the program, run the command: `python3 main.py`.
+
 ### **🐧 Linux (work-in-progress)**:
 [Run it from the source code](https://github.com/theJayTea/WritingTools/blob/8713e5a5de63a7892b05a43b9753172e692768fb/README's%20Linked%20Content/To%20Run%20Writing%20Tools%20Directly%20from%20the%20Source%20Code.md)
 
